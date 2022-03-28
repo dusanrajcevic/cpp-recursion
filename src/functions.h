@@ -55,3 +55,14 @@ bool isASquare(const int& number, const int& factor = 10);
  * @return string
  */
 string backwards(const int& max, const int& min, const int& step, const char& separator = ',');
+
+/**
+ * @brief Returns a string of all the numbers from min to max with a provided step.
+ *
+ * @param min
+ * @param max
+ * @param step
+ * @param separator = ','
+ * @return string
+ */
+string forwards(const int& min, const int& max, const int& step, const char& separator = ',');

@@ -13,6 +13,7 @@ int main() {
             << ": " << boolalpha << isDevidable(num1, num2) << endl;
     cout << "Number " << num1 << " is a square: " << isASquare(num1) << endl;
 	cout << "(" << num1 << ", " << num2 << ") = " << backwards(num1, num2, num3) << endl;
+	cout << "(" << num2 << ", " << num1 << ") = " << forwards(num2, num1, num3) << endl;
     cin.get();
     return 0;
 }

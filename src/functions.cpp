@@ -29,3 +29,9 @@ string backwards(const int& max, const int& min, const int& step, const char& se
 		? to_string(max) + separator + " " + backwards(max - step, min, step, separator)
 		: to_string(max) + ".";
 }
+
+string forwards(const int& min, const int& max, const int& step, const char& separator = ',') {
+	return max - min >= step
+		? to_string(min) + separator + " " + forwards(min + step, max, step, separator)
+		: to_string(min) + ".";
+}
