@@ -9,3 +9,7 @@ double power(const double& number, const double& exponent) {
 int modulus_operator(const int& number, const int& devider) {
 	return number - devider >= 0 ? modulus_operator(number - devider, devider) : number;
 }
+
+bool isDevidable(const int& number, const int& devider) {
+    return number <= devider ? number == devider : isDevidable(number - devider, devider);
+}

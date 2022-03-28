@@ -25,3 +25,12 @@ double power(const double& number, const double& powerof);
  * @return int 
  */
 int modulus_operator(const int& number, const int& devider);
+
+/**
+ * @brief Checks whether a number is devidable with another number.
+ * 
+ * @param number 
+ * @param devider 
+ * @return bool 
+ */
+bool isDevidable(const int& number, const int& devider);
