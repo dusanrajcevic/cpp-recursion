@@ -16,3 +16,12 @@ long factoriel(const int& number);
  * @return double 
  */
 double power(const double& number, const double& powerof);
+
+/**
+ * @brief Calculates a modulus of the devision of two integers.
+ * 
+ * @param number 
+ * @param devider 
+ * @return int 
+ */
+int modulus_operator(const int& number, const int& devider);
