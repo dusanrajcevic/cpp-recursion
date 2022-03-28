@@ -11,6 +11,7 @@ int main() {
     cout << num1 << " % " << num2 << " = " << modulus_operator(num1, num2) << endl;
     cout << "Number " << num1 << " is devidable by the number " << num2
             << ": " << boolalpha << isDevidable(num1, num2) << endl;
+    cout << "Number " << num1 << " is a square: " << isASquare(num1) << endl;
     cin.get();
     return 0;
 }

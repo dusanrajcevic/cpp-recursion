@@ -34,3 +34,12 @@ int modulus_operator(const int& number, const int& devider);
  * @return bool 
  */
 bool isDevidable(const int& number, const int& devider);
+
+/**
+ * @brief Checks whether a number is a square of another number.
+ * 
+ * @param number 
+ * @param factor 
+ * @return bool
+ */
+bool isASquare(const int& number, const int& factor = 10);
