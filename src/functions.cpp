@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 long factoriel(const int& number) {
     return number > 2 ? number * factoriel(number - 1) : number;
 }
@@ -19,4 +22,10 @@ bool isASquare(const int& number, const int& factor = 0) {
         : factor == 1 ? false
         : factor * factor == number ? true
         : isASquare(number, factor - 1);
+}
+
+string backwards(const int& max, const int& min, const int& step, const char& separator = ',') {
+	return max - step >= min
+		? to_string(max) + separator + " " + backwards(max - step, min, step, separator)
+		: to_string(max) + ".";
 }

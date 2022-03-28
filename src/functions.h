@@ -1,4 +1,5 @@
 #include <string>
+using namespace std;
 
 /**
  * @brief Calculates the factoriel of a number.
@@ -43,3 +44,14 @@ bool isDevidable(const int& number, const int& devider);
  * @return bool
  */
 bool isASquare(const int& number, const int& factor = 10);
+
+/**
+ * @brief Returns a string of all the numbers from max to min with a provided step.
+ *
+ * @param max
+ * @param min
+ * @param step
+ * @param separator = ','
+ * @return string
+ */
+string backwards(const int& max, const int& min, const int& step, const char& separator = ',');
