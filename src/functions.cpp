@@ -41,3 +41,10 @@ string arrayToString(const int* arr, const int& length, const char& separator = 
 	    ? to_string(arr[counter])
 	    : to_string(arr[counter]) + ", " + arrayToString(arr, length, separator, counter + 1);
 }
+
+int maxArrElement(const int* arr, const int& length) {
+    return length == 1 ? arr[0]
+        : arr[length - 1] > maxArrElement(arr, length-1)
+        ? arr[length-1]
+        : maxArrElement(arr, length-1);
+}

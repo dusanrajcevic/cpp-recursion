@@ -16,6 +16,8 @@ int main() {
 	cout << "(" << num1 << ", " << num2 << ") = " << backwards(num1, num2, num3) << endl;
 	cout << "(" << num2 << ", " << num1 << ") = " << forwards(num2, num1, num3) << endl;
     cout << "[" << arrayToString(arr, sizeof(arr) / sizeof(int)) << "]" << endl;
+    cout << "max(" << arrayToString(arr, sizeof(arr) / sizeof(int)) 
+            << ") = " << maxArrElement(arr, sizeof(arr) / sizeof(int)) << endl;
     cin.get();
     return 0;
 }

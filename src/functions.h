@@ -82,3 +82,12 @@ string arrayToString(
     const char& separator = ',',
     const int& counter = 0
 );
+
+/**
+ * @brief Returns the max element from the array of integers.
+ * 
+ * @param arr 
+ * @param length 
+ * @return double 
+ */
+int maxArrElement(const int* arr, const int& length);
