@@ -35,3 +35,9 @@ string forwards(const int& min, const int& max, const int& step, const char& sep
 		? to_string(min) + separator + " " + forwards(min + step, max, step, separator)
 		: to_string(min) + ".";
 }
+
+string arrayToString(const int* arr, const int& length, const char& separator = ',', const int& counter = 0) {
+	return counter == length - 1
+	    ? to_string(arr[counter])
+	    : to_string(arr[counter]) + ", " + arrayToString(arr, length, separator, counter + 1);
+}

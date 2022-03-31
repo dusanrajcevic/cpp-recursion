@@ -66,3 +66,19 @@ string backwards(const int& max, const int& min, const int& step, const char& se
  * @return string
  */
 string forwards(const int& min, const int& max, const int& step, const char& separator = ',');
+
+/**
+ * @brief Returns a string with elements of the array separated by a separator character.
+ * 
+ * @param arr 
+ * @param length 
+ * @param separator 
+ * @param counter - shouldn't be changed.
+ * @return string 
+ */
+string arrayToString(
+    const int* arr,
+    const int& length,
+    const char& separator = ',',
+    const int& counter = 0
+);
