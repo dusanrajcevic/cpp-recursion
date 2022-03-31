@@ -91,3 +91,12 @@ string arrayToString(
  * @return double 
  */
 int maxArrElement(const int* arr, const int& length);
+
+/**
+ * @brief Returns the min element from the array of integers.
+ * 
+ * @param arr 
+ * @param length 
+ * @return double 
+ */
+int minArrElement(const int* arr, const int& length);

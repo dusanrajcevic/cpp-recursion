@@ -48,3 +48,10 @@ int maxArrElement(const int* arr, const int& length) {
         ? arr[length-1]
         : maxArrElement(arr, length-1);
 }
+
+int minArrElement(const int* arr, const int& length) {
+    return length == 1 ? arr[0]
+        : arr[length - 1] < minArrElement(arr, length-1)
+        ? arr[length-1]
+        : minArrElement(arr, length-1);
+}

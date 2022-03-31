@@ -18,6 +18,8 @@ int main() {
     cout << "[" << arrayToString(arr, sizeof(arr) / sizeof(int)) << "]" << endl;
     cout << "max(" << arrayToString(arr, sizeof(arr) / sizeof(int)) 
             << ") = " << maxArrElement(arr, sizeof(arr) / sizeof(int)) << endl;
+    cout << "max(" << arrayToString(arr, sizeof(arr) / sizeof(int))
+            << ") = " << maxArrElement(arr, sizeof(arr) / sizeof(int)) << endl;
     cin.get();
     return 0;
 }
