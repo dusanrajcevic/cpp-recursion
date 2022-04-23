@@ -9,7 +9,7 @@ int main() {
     int arr[] = { 5, 8, 1, 13, 2, 16, 22, 5 };
     cout << "!" << num1 << " = " << factoriel(5) << endl;
     cout << num1 << "^" << num2 << " = " << power(num1, num2) << endl;
-    cout << num1 << " % " << num2 << " = " << modulus_operator(num1, num2) << endl;
+    cout << num1 << " % " << num2 << " = " << modulusOperator(num1, num2) << endl;
     cout << "Number " << num1 << " is devidable by the number " << num2
             << ": " << boolalpha << isDevidable(num1, num2) << endl;
     cout << "Number " << num1 << " is a square: " << isASquare(num1) << endl;

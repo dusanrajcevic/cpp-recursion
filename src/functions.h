@@ -25,7 +25,7 @@ double power(const double& number, const double& powerof);
  * @param devider 
  * @return int 
  */
-int modulus_operator(const int& number, const int& devider);
+int modulusOperator(const int& number, const int& devider);
 
 /**
  * @brief Checks whether a number is devidable with another number.
